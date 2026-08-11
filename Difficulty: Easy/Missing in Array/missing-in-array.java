@@ -19,3 +19,15 @@ class Solution {
         }return len+1;
     }
 }
+// second solution by using maths:
+class Solution {
+    int missingNum(int arr[]) {
+        int n=arr.length;
+        int sum=n*(n-1)/2;
+        int ArraySum=0;
+        for(int ele : arr){
+            sum=sum+ele;
+        }
+        return sum-ArraySum;
+    }
+}
