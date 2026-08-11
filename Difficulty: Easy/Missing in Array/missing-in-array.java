@@ -22,7 +22,7 @@ class Solution {
 // second solution by using maths:
 class Solution {
     int missingNum(int arr[]) {
-        int n=arr.length;
+        int n=arr.length+1;
         int sum=n*(n-1)/2;
         int ArraySum=0;
         for(int ele : arr){
