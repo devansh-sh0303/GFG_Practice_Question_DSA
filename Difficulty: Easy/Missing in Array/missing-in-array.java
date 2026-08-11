@@ -26,7 +26,7 @@ class Solution {
         int sum=n*(n-1)/2;
         int ArraySum=0;
         for(int ele : arr){
-            sum=sum+ele;
+            ArraySum=ArraySum+ele;
         }
         return sum-ArraySum;
     }
