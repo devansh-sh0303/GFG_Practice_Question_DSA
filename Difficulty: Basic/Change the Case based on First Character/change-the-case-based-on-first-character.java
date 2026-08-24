@@ -1,0 +1,10 @@
+class Solution {
+    String modify(String s) {
+        if(s.charAt(0)>=65 && s.charAt(0)<97){
+            return s.toUpperCase();
+        }
+        else{
+            return s.toLowerCase();
+        }
+    }
+}
